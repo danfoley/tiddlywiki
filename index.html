@@ -11019,8 +11019,11 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20201022164327324" modified="20201022164417657" tags="php cli" title="PHP CLI with no memory limit">
 <pre>`php -d memory-limit=-1`</pre>
 </div>
-<div created="20201013182456421" modified="20201013182534962" tags="linux marketplace" title="Viewing Marketplace Logs">
-<pre>`tail -f marketplace.log | jq`</pre>
+<div created="20201013182456421" modified="20201022164608781" tags="linux marketplace json" title="Viewing Marketplace Logs">
+<pre>`tail -f marketplace.log | jq`
+
+`brew install jq` if you haven't already
+https://stedolan.github.io/jq/ - will pretty print json.</pre>
 </div>
 
 
