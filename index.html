@@ -57,93 +57,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 </head>
 <body class="tc-body">
 <!--~~ Raw markup for the top of the body section ~~-->
-<div class="tc-remove-when-wiki-loaded">
-<style scoped>.tc-splash-text {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 16px;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-	margin: 20px auto 0;
-	width: 200px;
-	text-align: center;
-	color: rgba(0, 0, 0, 0.87);
-	fill: rgba(0, 0, 0, 0.87);
-}html body.tc-body {
-  background: #f4f4f4;
-}
-.line-wrapper {
-  width: 100%;
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.line {
-  width: 50px;
-  height: 1px;
-  background: rgba(0, 0, 0, 0.54);
-  -webkit-animation: line 2s infinite; 
-  -moz-animation: line 2s infinite; 
-  -o-animation: line 2s infinite; 
-  animation: line 2s infinite; 
-}
-@-webkit-keyframes line {
-  0%   { width: 10px; }
-  50% { width: 200px; }
-  100% { width: 10px; }
-}
-@keyframes line {
-  0%   { width: 10px; }
-  50% { width: 200px; }
-  100% { width: 10px; }
-}
-.linetwo {
-  width: 50px;
-  height: 1px;
-  background: rgba(0, 0, 0, 0.54);
-  -webkit-animation: linetwo 2s infinite; 
-  -moz-animation: linetwo 2s infinite; 
-  -o-animation: linetwo 2s infinite; 
-  animation: linetwo 2s infinite; 
-  margin: 5px 0;
-}
-@-webkit-keyframes linetwo {
-  0%   { width: 5px; }
-  70% { width: 180px; }
-  100% { width: 5px; }
-}
-@keyframes linetwo {
-  0%   { width: 5px; }
-  70% { width: 180px; }
-  100% { width: 5px; }
-}
-.linethree {
-  width: 50px;
-  height: 1px;
-  background: rgba(0, 0, 0, 0.54);
-  -webkit-animation: linethree 2s infinite; 
-  -moz-animation: linethree 2s infinite; 
-  -o-animation: linethree 2s infinite; 
-  animation: linethree 2s infinite; 
-  margin: linethree 0;
-}
-@-webkit-keyframes linethree {
-  0%   { width: 0; }
- 80% { width: 160px; }
-  100% { width: 0; }
-}
-@keyframes linethree {
-  0%   { width: 0; }
-  80% { width: 160px; }
-  100% { width: 0; }
-}
-</style><div class="line-wrapper">
-<div class="tc-splash-text">Dan's Wiki</div>
-<div class="line"></div>
-<div class="linetwo"></div>
-<div class="linethree"></div>
-</div></div>
+
 <!--~~ Static styles ~~-->
 <div id="styleArea">
 <style data-tiddler-title="$:/boot/boot.css" data-tiddler-type="text/css" type="text/css">/*
@@ -263,8 +177,6 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
-<li>$:/SplashScreen</li>
-
 <li>$:/state/folded/$:/ControlPanel</li>
 
 <li>$:/state/folded/$:/themes/jd/Mono</li>
@@ -282,8 +194,6 @@ Error message and password prompt
 <li>$:/state/tab--219645345</li>
 
 <li>$:/state/tab--86143343</li>
-
-<li>$:/state/tab-1163638994</li>
 
 <li>$:/state/tab-1749438307</li>
 
@@ -570,13 +480,13 @@ Error message and password prompt
 <div created="20210125162630197" modified="20210125162630197" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all">
 <pre>show</pre>
 </div>
-<div created="20210317135114436" modified="20210317135114436" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
+<div created="20210317135224262" modified="20210317135224263" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>show</pre>
 </div>
 <div created="20210125151028912" modified="20210125151028912" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
 <pre>show</pre>
 </div>
-<div created="20210317135126099" modified="20210317135126099" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/storyview">
+<div created="20210317135242901" modified="20210317135242901" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/storyview">
 <pre>show</pre>
 </div>
 <div created="20201008174422803" modified="20201008174424890" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager">
@@ -9990,105 +9900,6 @@ Error message and password prompt
 <div created="20201008173127790" modified="20201008173130142" title="$:/SiteTitle">
 <pre>Dan's Wiki</pre>
 </div>
-<div created="20210317135015966" modified="20210317135015968" tags="$:/tags/RawMarkupWikified/TopBody" title="$:/SplashScreen">
-<pre>\import [[$:/core/ui/PageMacros]] [all[shadows+tiddlers]tag[$:/tags/Macro]!has[draft.of]]
-\rules only filteredtranscludeinline transcludeinline macrocallinline
-&lt;div class=&quot;tc-remove-when-wiki-loaded&quot;&gt;
-&lt;style scoped&gt;
-
-.tc-splash-text {
-    font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;;
-    font-size: 16px;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-	margin: 20px auto 0;
-	width: 200px;
-	text-align: center;
-	color: &lt;&lt;colour foreground&gt;&gt;;
-	fill: &lt;&lt;colour foreground&gt;&gt;;
-}
-
-html body.tc-body {
-  background: &lt;&lt;colour page-background&gt;&gt;;
-}
-.line-wrapper {
-  width: 100%;
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.line {
-  width: 50px;
-  height: 1px;
-  background: &lt;&lt;colour muted-foreground&gt;&gt;;
-  -webkit-animation: line 2s infinite; 
-  -moz-animation: line 2s infinite; 
-  -o-animation: line 2s infinite; 
-  animation: line 2s infinite; 
-}
-@-webkit-keyframes line {
-  0%   { width: 10px; }
-  50% { width: 200px; }
-  100% { width: 10px; }
-}
-@keyframes line {
-  0%   { width: 10px; }
-  50% { width: 200px; }
-  100% { width: 10px; }
-}
-.linetwo {
-  width: 50px;
-  height: 1px;
-  background: &lt;&lt;colour muted-foreground&gt;&gt;;
-  -webkit-animation: linetwo 2s infinite; 
-  -moz-animation: linetwo 2s infinite; 
-  -o-animation: linetwo 2s infinite; 
-  animation: linetwo 2s infinite; 
-  margin: 5px 0;
-}
-@-webkit-keyframes linetwo {
-  0%   { width: 5px; }
-  70% { width: 180px; }
-  100% { width: 5px; }
-}
-@keyframes linetwo {
-  0%   { width: 5px; }
-  70% { width: 180px; }
-  100% { width: 5px; }
-}
-.linethree {
-  width: 50px;
-  height: 1px;
-  background: &lt;&lt;colour muted-foreground&gt;&gt;;
-  -webkit-animation: linethree 2s infinite; 
-  -moz-animation: linethree 2s infinite; 
-  -o-animation: linethree 2s infinite; 
-  animation: linethree 2s infinite; 
-  margin: linethree 0;
-}
-@-webkit-keyframes linethree {
-  0%   { width: 0; }
- 80% { width: 160px; }
-  100% { width: 0; }
-}
-@keyframes linethree {
-  0%   { width: 0; }
-  80% { width: 160px; }
-  100% { width: 0; }
-}
-&lt;/style&gt;
-
-&lt;div class=&quot;line-wrapper&quot;&gt;
-&lt;div class=&quot;tc-splash-text&quot;&gt;{{$:/SiteTitle}}&lt;/div&gt;
-&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;
-&lt;div class=&quot;linetwo&quot;&gt;&lt;/div&gt;
-&lt;div class=&quot;linethree&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;</pre>
-</div>
 <div created="20210125162830266" modified="20210125162834136" title="$:/state/folded/$:/ControlPanel">
 <pre>show</pre>
 </div>
@@ -10107,8 +9918,8 @@ html body.tc-body {
 <div created="20210125151651098" modified="20210125162848784" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20201008175620516" modified="20210317135013118" title="$:/state/tab--1963855381">
-<pre>$:/themes/jd/Mono/Config</pre>
+<div created="20201008175620516" modified="20210125152744643" title="$:/state/tab--1963855381">
+<pre>$:/themes/tiddlywiki/vanilla/themetweaks</pre>
 </div>
 <div created="20201012191640215" modified="20210125151226308" title="$:/state/tab--219645345">
 <pre>$:/core/ui/ControlPanel/Plugins/Add/Plugins</pre>
@@ -10116,25 +9927,22 @@ html body.tc-body {
 <div created="20201008173444144" modified="20201012191713542" title="$:/state/tab--86143343">
 <pre>$:/core/ui/ControlPanel/Plugins/Installed/Themes</pre>
 </div>
-<div created="20210317134849433" modified="20210317134849433" title="$:/state/tab-1163638994">
-<pre>$:/core/ui/MoreSideBar/Plugins/Theme</pre>
-</div>
-<div created="20201008172535524" modified="20210317134929911" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Appearance</pre>
+<div created="20201008172535524" modified="20210316215834735" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
 <div created="20201008172536891" modified="20201008180523317" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
-<div created="20210125151640779" modified="20210317135053029" title="$:/state/tab/moresidebar-1850697562">
+<div created="20210125151640779" modified="20210317135204893" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/All</pre>
 </div>
-<div created="20201008174408708" modified="20210317135140314" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Open</pre>
+<div created="20201008174408708" modified="20210317135208782" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Tools</pre>
 </div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20210317134900611" list="[[Activebuilding Servers]]" modified="20210317134925537" title="$:/StoryList">
+<div list="$:/ControlPanel [[Activebuilding Servers]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20201012191757285" modified="20210125151645882" title="$:/temp/advancedsearch">
@@ -11157,7 +10965,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20210125151201619" modified="20210125151201619" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.22/index.html" url="https://tiddlywiki.com/library/v5.1.22/index.html">
 <pre>loaded</pre>
 </div>
-<div created="20190202142800922" creator="jd" modified="20210317135009870" modifier="jd" title="$:/theme">
+<div created="20190202142800922" creator="jd" modified="20210125152740884" modifier="jd" title="$:/theme">
 <pre>$:/themes/jd/Mono</pre>
 </div>
 <div author="JD" core-version="&gt;=5.1.19" created="20190202102252527" creator="jd" dependents="$:/themes/tiddlywiki/vanilla" description="For writing long texts" list="contents" modified="20190203163019606" modifier="jd" name="Mono" plugin-type="theme" source="http://j.d.mono.tiddlyspot.com" title="$:/themes/jd/Mono" type="application/json" version="1.0.32">
@@ -12457,8 +12265,8 @@ div::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.12); }
     }
 }</pre>
 </div>
-<div created="20201008175623318" modified="20201008175639658" title="$:/view">
-<pre>classic</pre>
+<div created="20201008175623318" modified="20210317135249696" title="$:/view">
+<pre>pop</pre>
 </div>
 <div created="20201008204902100" modified="20201008205117142" tags="[[active building]] model cache" title="Activebuilding Model Cache">
 <pre>When you change the code in a model, you must always clear the model cache.
