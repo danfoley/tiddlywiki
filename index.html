@@ -149,6 +149,8 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager</li>
@@ -177,9 +179,19 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
+<li>$:/state/sidebar</li>
+
+<li>$:/state/tab--1418380610</li>
+
 <li>$:/state/tab-1749438307</li>
 
 <li>$:/state/tab-2065006209</li>
+
+<li>$:/state/tab/moresidebar-1850697562</li>
+
+<li>$:/state/tab/sidebar--595412856</li>
+
+<li>$:/state/tag-manager/active building</li>
 
 <li>$:/status/RequireReloadDueToPluginChange</li>
 
@@ -213,6 +225,10 @@ Error message and password prompt
 
 <li>Activebuilding Servers</li>
 
+<li>Domain Driven Design</li>
+
+<li>Draft of 'Activebuilding Model Cache'</li>
+
 <li>F5 VPN Hosts file</li>
 
 <li>getent to view linux users</li>
@@ -221,11 +237,17 @@ Error message and password prompt
 
 <li>Managing Services in Linux</li>
 
+<li>php</li>
+
 <li>PHP CLI with no memory limit</li>
+
+<li>php unit</li>
 
 <li>PHP-Unit commands</li>
 
 <li>Pretty Format Json output</li>
+
+<li>restart php</li>
 
 <li>Xdebug on Console for VSCode</li>
 
@@ -255,6 +277,9 @@ Error message and password prompt
 </div>
 <div created="20210125162630197" modified="20210125162630197" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all">
 <pre>show</pre>
+</div>
+<div created="20210320012524058" modified="20210320012524865" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
+<pre>hide</pre>
 </div>
 <div created="20210125151028912" modified="20210125151028912" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
 <pre>show</pre>
@@ -10195,16 +10220,31 @@ Error message and password prompt
 <div created="20201008173127790" modified="20201008173130142" title="$:/SiteTitle">
 <pre>Dan's Wiki</pre>
 </div>
-<div created="20210317220843892" modified="20210317220843892" title="$:/state/tab-1749438307">
+<div created="20210320012718635" modified="20210320012752803" title="$:/state/sidebar">
+<pre>yes</pre>
+</div>
+<div created="20210320012542494" modified="20210320012557027" title="$:/state/tab--1418380610">
+<pre>$:/core/ui/ControlPanel/Plugins/Add/Plugins</pre>
+</div>
+<div created="20210317220843892" modified="20210320013129676" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
 <div created="20210317220848572" modified="20210317220848572" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
+<div created="20210320012806275" modified="20210320013108683" title="$:/state/tab/moresidebar-1850697562">
+<pre>$:/core/ui/MoreSideBar/All</pre>
+</div>
+<div created="20210320012521206" modified="20210320012800116" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/More</pre>
+</div>
+<div created="20210320013255494" modified="20210320013255494" title="$:/state/tag-manager/active building">
+<pre>open</pre>
+</div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20210318165137355" list="$:/ControlPanel [[PHP-Unit commands]] [[Xdebug on Console for VSCode]]" modified="20210318165137355" title="$:/StoryList">
+<div created="20210320012820651" list="[[Draft of 'Activebuilding Model Cache']] $:/ControlPanel $:/TagManager" modified="20210320013300740" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20190202142800922" creator="jd" modified="20210125152740884" modifier="jd" title="$:/theme">
@@ -11518,6 +11558,16 @@ div::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.12); }
 <div created="20210316215723029" modified="20210317134712502" tags="[[active building]]" title="Activebuilding Servers">
 <pre>- Marketplace qa2 - rcqacbapfpm201.realpage.com</pre>
 </div>
+<div created="20210320012052409" modified="20210320012508310" tags="php [[software development]] [[software design]] OOP" title="Domain Driven Design">
+<pre>''Value Objects'' - Objects that simply store value. Ex: Money, Phone Number, Address, Social Security Number.
+* Immutable
+* have &quot;equals&quot; method to compare equality, may compare more than one internal value. (address would compare street number, street name, city, state, zip)</pre>
+</div>
+<div created="20201008204902100" draft.of="Activebuilding Model Cache" draft.title="Activebuilding Model Cache" modified="20210320013304045" tags="[[active building]] model cache" title="Draft of 'Activebuilding Model Cache'">
+<pre>When you change the code in a model, you must always clear the model cache.
+
+`bin/activebuilding cache:clear`</pre>
+</div>
 <div created="20201013181234903" modified="20201013181324692" tags="linux [[F5 VPN]] VPN" title="F5 VPN Hosts file">
 <pre>edit `/private/etc/hosts` to make the changes stick.</pre>
 </div>
@@ -11534,8 +11584,14 @@ div::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.12); }
 
 `sudo systemctl [start|stop|restart|status] [service]`</pre>
 </div>
+<div color="#159d3e" created="20210320012834196" modified="20210320013105941" title="php">
+<pre></pre>
+</div>
 <div created="20201022164327324" modified="20210125150824317" tags="php cli [[command line]]" title="PHP CLI with no memory limit">
 <pre>`php -d memory-limit=-1`</pre>
+</div>
+<div color="#159d3e" created="20210320012850990" modified="20210320012852132" title="php unit">
+<pre></pre>
 </div>
 <div created="20210318164941096" modified="20210318165123481" tags="php [[php unit]]" title="PHP-Unit commands">
 <pre>run one test:
@@ -11550,6 +11606,9 @@ ex:
 `tail -f marketplace.log | jq`
 
 </pre>
+</div>
+<div color="#169c50" created="20210320012858897" modified="20210320012902161" title="restart php">
+<pre></pre>
 </div>
 <div created="20210317221633510" modified="20210317221755985" tags="php xdebug vscode" title="Xdebug on Console for VSCode">
 <pre>`export XDEBUG_CONFIG=&quot;idekey=VSCODE&quot;`</pre>
